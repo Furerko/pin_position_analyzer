@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+*.spec
+
+# Reports and production data
+*.xlsx
+*.xls
+*.csv
+data/*
+!data/.gitkeep
+
+# Logs / temp
+*.log
+*.tmp
+.cache/
+.pytest_cache/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.key
+*.pem
